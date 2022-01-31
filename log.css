@@ -1,0 +1,55 @@
+ .u-section-1 {
+  background-image: url("images/2.png");
+  background-position: 49.84% 80.1%;
+  background-size: 130%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 167px;
+  width: 570px;
+  margin: 83px auto 60px;
+}
+
+.u-section-1 .u-label-1 {
+  font-family: MinecraftBold-nMK1;
+  font-size: 1.5rem;
+}
+
+.u-section-1 .u-input-1 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 495px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 482px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 394px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}@font-face {
+  font-family: 'MinecraftBold-nMK1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MinecraftBold-nMK1.otf);
+}
